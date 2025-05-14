@@ -1,28 +1,29 @@
 const hamburger = document.getElementById('hamburger');
 const navContent = document.getElementById('navContent');
+const body = document.querySelector("body");
+const form = document.querySelector(".form-data");
+const cards = document.querySelectorAll(".cls-ro");
+var bt1 = document.querySelector("#fo-bt1");
+var bt2 = document.querySelector("#fo-bt2");
+var mForm = document.querySelector(".main-form")
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active'); // triggers animation
   navContent.classList.toggle('active'); // toggles menu visibility
 });
-// const a = [1,5,3,5,9,8]
-// a[0] = 4
-// // const b = 5
-// // b= 6
-// // console.log(b)
-// console.log(a) 
 
-// var c = 45
-// {
-//   var c =65
-//   console.log(c)
-// }
-// console.log(c)
-// let d = 56
+cards.forEach((card) => {
+  card.addEventListener("click", function() {
+    form.style.display = "block"
+    body.style.overflow = "hidden"
+  })
+})
 
-// {
-//   let d = 89
-//   console.log(d);
-  
-// }
-// console.log(d);
+bt1.addEventListener("click",function(){
+  form.style.display = "none";
+   body.style.overflow = "auto";
+})
+bt2.addEventListener("click",function(){
+  form.style.display = "none";
+   body.style.overflow = "auto";
+})

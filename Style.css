@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background-color:rgb(228, 155, 7);
+  background-color: rgb(228, 155, 7);
   width: 100%;
 }
 .navbar {
@@ -56,7 +56,7 @@ body {
   color: white;
   border-radius: 4px;
 }
-.btn2:hover{
+.btn2:hover {
   background: linear-gradient(to right, #0077ff, #0055cc);
 }
 .hamburger {
@@ -76,7 +76,6 @@ body {
   border-radius: 2px;
   transition: 0.3s ease;
 }
-
 
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
@@ -102,16 +101,16 @@ body {
 .text h3 {
   color: gray;
 }
-.text span{
-  color:rgb(228, 155, 7);
+.text span {
+  color: rgb(228, 155, 7);
   animation-name: col;
   animation-duration: 5s;
 }
-@keyframes col{
-  from{
+@keyframes col {
+  from {
     color: #000;
   }
-  to{
+  to {
     color: rgb(228, 155, 7);
   }
 }
@@ -154,7 +153,7 @@ body {
   font-size: 24px;
   margin-bottom: 20px;
   font-weight: bold;
-  background: linear-gradient(to right, purple, rgb(252, 252, 6) );
+  background: linear-gradient(to right, purple, rgb(252, 252, 6));
   background-clip: text;
   color: transparent;
 }
@@ -168,7 +167,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .left img {
@@ -176,7 +174,6 @@ body {
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
- 
 }
 
 .right {
@@ -223,21 +220,22 @@ body {
   margin-top: 5px;
   font-size: 16px;
 }
-.hero { 
+
+.hero {
   margin-top: 70px;
-  justify-items: center; 
+  justify-items: center;
   justify-self: center;
   display: grid;
   padding: 30px;
   grid-template-columns: repeat(2, 1fr);
-  background-color:rgba(210, 169, 176, 0.485);
+  background-color: rgba(210, 169, 176, 0.485);
   border-radius: 15px;
   box-shadow: 0px 4px 7px black;
   width: 90%;
   transition: 1s;
 }
-.hero:hover{
-transform:translate(-0.3rem, -1ex);
+.hero:hover {
+  transform: translate(-0.3rem, -1ex);
 }
 
 .hero-cls1 button {
@@ -251,11 +249,11 @@ transform:translate(-0.3rem, -1ex);
   color: rgb(227, 58, 227);
 }
 
-.hero-cls1 h1{
+.hero-cls1 h1 {
   font-size: xx-large;
   font-weight: 900;
 }
-.hero-cls1 p{
+.hero-cls1 p {
   font-weight: lighter;
   color: #3a3636b9;
 }
@@ -266,7 +264,7 @@ transform:translate(-0.3rem, -1ex);
   border: 5px solid pink;
   background-color: whitesmoke;
 }
-.skew img{
+.skew img {
   width: 250px;
   height: 250px;
   object-fit: contain;
@@ -285,7 +283,7 @@ transform:translate(-0.3rem, -1ex);
 
 .features-section {
   max-width: 1200px;
-  margin-left:100px ;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -303,8 +301,6 @@ transform:translate(-0.3rem, -1ex);
   flex-direction: row-reverse;
 }
 
-
-
 .feature-image img {
   width: 50%;
   height: auto;
@@ -317,10 +313,22 @@ transform:translate(-0.3rem, -1ex);
   scale: 1.1;
   transform: rotate(5deg);
 }
+
+.feature-image1 img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid rgb(227, 95, 117);
+  transition: 1s;
+}
+
+.feature-image1 img:hover {
+  scale: 1.1;
+  transform: rotate(-5deg);
+}
 .feature-text {
   display: flex;
   flex-direction: column;
-  
 }
 
 .feature-text h3 {
@@ -334,7 +342,6 @@ transform:translate(-0.3rem, -1ex);
   font-size: 1rem;
   color: #555;
   line-height: 1.2;
-
 }
 
 .main_form {
@@ -359,7 +366,6 @@ transform:translate(-0.3rem, -1ex);
 .Form .f-head {
   text-align: center;
   padding: 30px;
-
 }
 .form-val {
   display: flex;
@@ -383,13 +389,13 @@ transform:translate(-0.3rem, -1ex);
   height: 40px;
   width: 100px;
   border-radius: 30px;
-  background:linear-gradient(to bottom, red 40% , white );
+  background: linear-gradient(to bottom, red 40%, white);
   border: 0px;
   color: white;
   cursor: pointer;
 }
-.f-btn:hover{
-  background:linear-gradient(to bottom, #009fe3 40% ,white)
+.f-btn:hover {
+  background: linear-gradient(to bottom, #009fe3 40%, white);
 }
 .testimonial-section {
   background: #009fe3;
@@ -436,11 +442,10 @@ transform:translate(-0.3rem, -1ex);
   background-color: #438bdfd4;
   transition: 1s;
 }
-.testimonial:hover{
-  transform: translate(-1.0rem, -1ex);
-  box-shadow: 0px 4px 7px pink;
+.testimonial:hover {
+  transform: translate(-1rem, -1ex);
+  box-shadow: 0px 4px 7px rgba(255, 192, 203, 0.475);
 }
-
 
 .testimonial::before {
   content: "❝";
@@ -513,7 +518,7 @@ transform:translate(-0.3rem, -1ex);
   padding: 20px;
   align-items: center;
 }
-.events-grid :hover{
+.events-grid :hover {
   color: #0055cc;
 }
 
@@ -582,7 +587,7 @@ transform:translate(-0.3rem, -1ex);
 
 .newsletter-image img {
   max-width: 180px;
- 
+
   height: auto;
 }
 
@@ -629,7 +634,6 @@ transform:translate(-0.3rem, -1ex);
 .newsletter-form button:hover {
   background: linear-gradient(to right, #0077ff, #0055cc);
 }
-
 
 .footer {
   background-color: #0f172a;
@@ -706,17 +710,15 @@ transform:translate(-0.3rem, -1ex);
 
 .footer-bottom {
   background-color: #b91c1c;
-    padding: 15px 20px;
-    /* margin-top: 40px; */
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between; 
-     align-items: center;
-    font-size: 14px;
-    color: #fff;
-  }
-  
-
+  padding: 15px 20px;
+  /* margin-top: 40px; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
 
 .footer-bottom p {
   margin: 0;
@@ -734,16 +736,122 @@ transform:translate(-0.3rem, -1ex);
   text-decoration: underline;
 }
 
+.main-cls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 15px;
+  gap: 20px;
+}
+.cls-ro {
+  height: 300px;
+  cursor: pointer;
+  width: 350px;
+  border: 0px;
+  border-radius: 15px;
+  background-color: rgba(210, 169, 176, 0.485);
+  justify-self: center;
+  text-align: center;
+  transition: 2s;
+  box-shadow: 0px 4px 7px pink;
+}
+.cls-ro h1 {
+  background: linear-gradient(to right, rgb(47, 194, 49), rgb(230, 70, 230));
+  background-clip: text;
+  background-position: center;
+  color: transparent;
+}
+.cls-ro h2 {
+  font-weight: 400;
+  padding: 80px;
+}
+.cls-ro:hover {
+  transform: translate(-0.3rem, -1ex);
+  background-color: #009fe3;
+}
 
+.form-data {
+  display: none;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.515);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+.cls-form {
+  margin: 15px 0;
+  padding: 10px ;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.f-input {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+  width: 550px;
+  align-self: center;
+  margin-top: 10px;
+}
+.f-input input {
+  padding: 12px 8px;
+  border-radius: 5px;
+}
+.f-input label{
+  margin: 8px 0;
+}
+.fo-btns {
+  padding: 20px;
+  gap: 10px;
+  align-self: center;
+}
+.fo-bt {
+  background-color: rgb(90, 228, 90);
+  height: 50px;
+  width: 400px;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 10px;
+}
 
+.close{
+  display: flex;
+  flex-direction: row-reverse;
+ padding: 0px 40px;
 
+}
+.close .fo-bt1 {
+  background-color: rgb(90, 228, 90);
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  border-radius: 50%;
+  cursor: pointer;
 
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .f-input {
+    width: 300px;
+  }
+  .main-cls {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .hamburger {
     display: flex;
-   
   }
 
   .nav-content {
@@ -768,13 +876,12 @@ transform:translate(-0.3rem, -1ex);
     flex-direction: column;
     gap: 10px;
   }
-  .nav-link li:hover{
+  .nav-link li:hover {
     color: #0077ff;
     cursor: pointer;
     background-color: white;
     width: 400px;
     height: 30px;
-   
   }
 
   .btns {
@@ -792,17 +899,17 @@ transform:translate(-0.3rem, -1ex);
     padding-bottom: 100px;
   }
   .description .text p {
-   justify-self: center;
-   width: 378px;
-   margin-right: 25px;
-  }
-  .description .text h1{
-    margin-right: 15px;
-  }
-  .description .text h3{
+    justify-self: center;
+    width: 378px;
     margin-right: 25px;
   }
-  .text button{
+  .description .text h1 {
+    margin-right: 15px;
+  }
+  .description .text h3 {
+    margin-right: 25px;
+  }
+  .text button {
     margin-right: 32px;
   }
 
@@ -819,8 +926,8 @@ transform:translate(-0.3rem, -1ex);
   .feature-text h3 {
     font-size: 1.2rem;
   }
-  .feature-text p{
-    padding:33px;
+  .feature-text p {
+    padding: 33px;
   }
   .container4 {
     background-color: rgba(70, 76, 229, 0.688);
@@ -844,16 +951,16 @@ transform:translate(-0.3rem, -1ex);
   .hero {
     display: flex;
     flex-direction: column-reverse;
-    gap: 20px;  
+    gap: 20px;
     width: 65%;
   }
-  .hero-cls1{
+  .hero-cls1 {
     text-align: center;
   }
-  .skew{
+  .skew {
     width: 200px;
     height: 200px;
-   
+
     align-self: center;
   }
   .skew img {
@@ -863,7 +970,6 @@ transform:translate(-0.3rem, -1ex);
     object-fit: contain;
   }
   .p-test {
-  
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-right: 30px;
@@ -888,22 +994,20 @@ transform:translate(-0.3rem, -1ex);
   .Form .f-head {
     text-align: center;
     padding: 30px;
-
   }
   .form-val {
     display: flex;
     flex-direction: column;
   }
-  .features-section{
-   margin-left: 10px;
+  .features-section {
+    margin-left: 10px;
     gap: 2px;
     align-self: center;
   }
-  .feature-image{
+  .feature-image {
     width: 500px;
-
   }
- 
+
   .container6 {
     display: flex;
     align-items: center;
@@ -911,8 +1015,7 @@ transform:translate(-0.3rem, -1ex);
     padding: 0 25px;
   }
   .newsletter-container {
-
-    background: linear-gradient(to top right, pink, #f8f0f7);  
+    background: linear-gradient(to top right, pink, #f8f0f7);
     gap: 20px;
   }
 
@@ -969,8 +1072,6 @@ transform:translate(-0.3rem, -1ex);
     background: linear-gradient(to right, #0077ff, #0055cc);
   }
 
- 
-
   .img-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -984,10 +1085,9 @@ transform:translate(-0.3rem, -1ex);
 
   .newsletter-form {
     flex-direction: column;
-  } 
+  }
   .footer-container {
     flex-direction: column;
-
   }
   .footer-policy-links {
     margin-top: 10px;
@@ -997,7 +1097,3 @@ transform:translate(-0.3rem, -1ex);
     gap: 10px;
   }
 }
-
-
-
-
